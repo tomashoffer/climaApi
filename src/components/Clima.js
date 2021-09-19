@@ -14,7 +14,7 @@ const Clima = ({resultado}) => {
     return ( 
         <div className="card-panel white col s12">
             <div className="black-text">
-                <h2>The weather of {name} is</h2>
+                <h2>The weather in {name} is</h2>
                 <p className="temperatura">
                     { parseFloat(main.temp - kelvin, 10).toFixed(2) } <span>&#x2103;</span>  
                 </p>
